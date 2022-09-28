@@ -17,6 +17,7 @@ Tech :
 - React.JS
 - Typescript
 - Apollo-Client
+- GraphQL
 
 Library :
 
@@ -31,3 +32,14 @@ Tech :
 - PostgreSQL
 - Typescript
 - Prisma
+
+# Note
+
+- Access the database PostgreSQL with pgadmin app
+- set the schema prisma connection to posrtgre
+
+# on the server
+
+- npx prisma generate
+- npx prisma migrate save --experimental
+  and name it first
